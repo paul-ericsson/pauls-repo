@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Show environment
+      - name: Quick CI check
         run: |
-          echo "Running CI: no tests configured"
+          echo "CI check"
